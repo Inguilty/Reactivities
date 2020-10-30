@@ -137,7 +137,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\oleksandr.izmiestiev\\Documents\\.Net Core + React\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\oleksandr.izmiestiev\\Documents\\.Net Core + React\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -148,6 +152,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
